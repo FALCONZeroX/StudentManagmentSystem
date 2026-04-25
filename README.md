@@ -1,57 +1,87 @@
-# 🎓 Advanced Student Management System (C++)
+# 📚 Student Management System
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+A robust and user-friendly **console-based** Student Records Management System built with **C++**. It provides full CRUD operations, advanced search, statistics, sorting, import/export, and backup functionality. All data is stored locally in binary files for persistence, with the ability to export/import in plain text format.
 
-A robust and efficient Student Management System built with modern C++ using Object-Oriented principles. This system allows for complete management of student records with features like binary file persistence, advanced statistics, and record sorting.
-
-## 🚀 Features
-
-* **Full CRUD Operations**: Create, Read, Update, and Delete student records.
-* **[span_0](start_span)[span_1](start_span)Data Persistence**: Automatically saves and loads data using binary files for fast and reliable storage[span_0](end_span)[span_1](end_span).
-* **[span_2](start_span)[span_3](start_span)Advanced Search**: Search for students by Roll Number, Name, Department, or GPA[span_2](end_span)[span_3](end_span).
-* **[span_4](start_span)[span_5](start_span)Detailed Statistics**: Generate reports based on departments, GPA ranges, active status, and semesters[span_4](end_span)[span_5](end_span).
-* **[span_6](start_span)[span_7](start_span)Record Sorting**: Sort students by name (A-Z), GPA, or ID (Ascending/Descending)[span_6](end_span)[span_7](end_span).
-* **[span_8](start_span)[span_9](start_span)Import/Export**: Support for exporting/importing data to/from `.txt` files for external use[span_8](end_span)[span_9](end_span).
-* **[span_10](start_span)[span_11](start_span)Backup & Restore**: Easily backup all data and restore it whenever needed[span_10](end_span)[span_11](end_span).
-* **[span_12](start_span)Pagination System**: Clean UI that displays records page by page (10 records per page)[span_12](end_span).
-
-## 📁 File Structure
-
-The project is organized into three main files:
-* `student.h`: Contains the core student data structures and function prototypes.
-* `student.cpp`: Implements the management logic, data validation, and file handling.
-* `main.cpp`: The entry point that handles the user interface and menu navigation.
-
-## 🛠️ Requirements & Installation
-
-1.  **Compiler**: Any C++ compiler (GCC, Clang, or MSVC) supporting C++11 or higher.
-2.  **Clone the repository**:
-    ```bash
-    git clone [https://github.com/FALCONZeroX/Student-Management-System.git](https://github.com/FALCONZeroX/Student-Management-System.git)
-    ```
-3.  **Compile**:
-    ```bash
-    g++ main.cpp student.cpp -o StudentSystem
-    ```
-4.  **Run**:
-    ```bash
-    ./StudentSystem
-    ```
-
-## 📊 Statistics Overview
-The system provides insightful reports including:
-* **[span_13](start_span)[span_14](start_span)Departmental Distribution**: Counts for IT, CS, ME, EE, and CE[span_13](end_span)[span_14](end_span).
-* **[span_15](start_span)[span_16](start_span)GPA Performance**: Categories like Excellent (3.5 - 4.0) down to Accepted[span_15](end_span)[span_16](end_span).
-* **[span_17](start_span)Enrollment Status**: Active vs Inactive student counts[span_17](end_span).
-
-## 🤝 Contributing
-Contributions are welcome! If you have any improvements or new features, feel free to fork the repo and submit a pull request.
-
-## 👤 Author
-**FALAH FATHEL (FΛLCØN)**
-* [span_18](start_span)GitHub: [@FALCONZeroX](https://www.github.com/FALCONZeroX)[span_18](end_span)
-* [span_19](start_span)Year: 2026[span_19](end_span)
+![C++](https://img.shields.io/badge/language-C%2B%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
-*Created as part of the Programming Advices curriculum.*
+
+## ✨ Key Features
+
+- **Add New Student**  
+  Automatically assigns the next sequential roll number, validates all inputs (names, department, cGPA, semester, email, phone, date of birth, and active status).
+
+- **Show All Students**  
+  Paginated display with 10 records per page, showing full details in a clean table. Supports next/previous navigation.
+
+- **Search Records**  
+  Search by **Roll Number**, **First Name**, **Department**, or **cGPA**. Displays matching records with export‑style formatting.
+
+- **Update Student**  
+  Modify only the fields you need: Semester, cGPA, Phone Number, Email, or Status. Confirmation prompt before saving changes.
+
+- **Delete Student**  
+  Two deletion modes: **Logical Delete** (marks as inactive) or **Actual Delete** (removes permanently).
+
+- **Statistics & Reports**  
+  Generates on‑screen analytics:  
+  - Total, Active, Inactive students  
+  - Breakdown by Department (IT, CS, ME, EE, CE)  
+  - cGPA distribution (Excellent, Very Good, Good, Accepted)  
+  - Semester‑wise distribution (1–8)
+
+- **Arrange / Sort Records**  
+  Sort according to:  
+  - Roll Number (Ascending / Descending)  
+  - First Name (A‑Z)  
+  - cGPA (Descending)  
+  - Semester (Ascending)  
+  Changes are saved immediately after confirmation.
+
+- **Export to TXT File**  
+  Exports all records to a delimited text file (`-` as separator) for external use or backup.
+
+- **Import from TXT File**  
+  Reads a delimited text file and adds only new records (duplicate roll numbers are skipped). Merged data is saved back to the binary database.
+
+- **Backup & Restore**  
+  - **Backup**: manually saves the current in‑memory data to the binary file.  
+  - **Restore**: reloads data from the binary file, discarding any unsaved changes.
+
+- **Persistent Local Storage**  
+  All student records are stored in a binary file (`Students.data`) inside a dedicated folder. The system automatically loads data on startup.
+
+- **Input Validation & Error Handling**  
+  Every user input is validated – from integers and floats to date components, email format, and department codes. Clear error messages guide the user.
+
+- **Professional Console UI**  
+  Color‑coded headings, consistent separators, and immediate feedback messages (success, error, cancel) make navigation intuitive.
+
+---
+
+## 🛠 Technologies Used
+
+- **Language**: C++ (standard library only)
+- **Standard Template Library (STL)**: `vector`, `algorithm`, `stringstream`
+- **File I/O**: `fstream` for binary and text file handling
+- **Formatting**: `iomanip` for tabular display
+- **No external dependencies** – compiles on any modern C++ compiler.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A C++ compiler that supports C++11 or later (e.g., `g++`, `clang++`, MSVC)
+- (Optional) Git to clone the repository
+
+### Folder Setup
+
+The program expects a folder named `Student Management System` in the **same directory** as the executable. This folder will contain the persistent data files.
+
+You can create it manually:
+```bash
+mkdir "Student Management System"
