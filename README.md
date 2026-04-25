@@ -127,20 +127,6 @@ g++ -std=c++17 -I include/ -o StudentMS src/*.cpp
 StudentMS.exe # (Windows)
 ```
 
-Note: On Windows, the program uses system("color") for neon effects – works best in Command Prompt or Windows Terminal.
-
-🔧 Alternative compilation (CMake optional)
-
-If you prefer CMake, create a CMakeLists.txt with:
-
-```cmake
-cmake_minimum_required(VERSION 3.14)
-project(StudentMS)
-set(CMAKE_CXX_STANDARD 17)
-include_directories(include)
-add_executable(StudentMS src/main.cpp src/student.cpp)
-```
-
 ---
 
 🎮 USAGE EXAMPLE
