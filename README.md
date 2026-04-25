@@ -1,5 +1,4 @@
 # ⚡ STUDENT MANAGEMENT SYSTEM ⚡
-#### *Cyberpunk Edition • C++ • Binary Persistence • Neon CLI*
 
 [![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-brightgreen?style=for-the-badge&logo=windows)](https://github.com/FALCONZeroX)
