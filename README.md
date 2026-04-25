@@ -222,7 +222,7 @@ Student.txt Text Human‑readable export/import (delimiter '-')
 
 ---
 
-👨‍💻 AUTHOR & CYBERPUNK CREDITS
+👨‍💻 AUTHOR & CREDITS
 
 Created by: Falah Fathel
 GitHub alias: FALCONZeroX
