@@ -1,4 +1,3 @@
-```markdown
 # 🎓 Student Management System
 
 A comprehensive, console-based **Student Records Management System** built with **C++**, designed to efficiently handle all CRUD operations (Create, Read, Update, Delete) alongside advanced data management features. The application leverages object-oriented principles, file handling, and local binary storage to ensure data persistence and performance.
