@@ -1,4 +1,3 @@
-``
 # ⚡ STUDENT MANAGEMENT SYSTEM ⚡
 #### *Cyberpunk Edition • C++ • Binary Persistence • Neon CLI*
 
