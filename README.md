@@ -8,7 +8,7 @@
 
 ## 📡 *SYSTEM OVERVIEW*
 
-> **Student Management System** is a high‑performance, terminal‑based application written in **C++17**. It allows educational institutions to manage student records with **binary file persistence**, **advanced search**, **statistical reports**, **pagination**, and **cyberpunk‑styled CLI** animations. Built with pure STL – no external dependencies.
+> **Student Management System** is a high‑performance, terminal‑based application written in **C++**. It allows educational institutions to manage student records with **binary file persistence**, **advanced search**, **statistical reports**, **pagination**, and **cyberpunk‑styled CLI** animations. Built with pure STL – no external dependencies.
 
 | Feature                | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
