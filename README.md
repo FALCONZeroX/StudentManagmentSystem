@@ -132,9 +132,9 @@ StudentMS.exe # (Windows)
 🎮 USAGE EXAMPLE
 
 ```
-==================================================
+====================================================================
 ================ STUDENTS RECORDS MANAGEMENT SYSTEM ================
-==================================================
+====================================================================
 [1] Add New Student Record
 --------------------------
 [2] Show All Students
@@ -185,9 +185,9 @@ Please Enter cGPA
 📈 Statistics report snippet
 
 ```
------------------------------
+-------------------------------------
         Statistics And Reports
------------------------------
+-------------------------------------
 General Statistics
  - Total Students   : 42
  - Active Students  : 38
@@ -209,6 +209,7 @@ Students.data Binary Primary storage, read/written on every CRUD op
 Student.txt Text Human‑readable export/import (delimiter '-')
 
 📌 Backup : copies current vector to binary file.
+
 📌 Restore : reloads from binary file even after total data loss.
 
 ---
