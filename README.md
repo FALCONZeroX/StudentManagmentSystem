@@ -22,7 +22,7 @@
 
 ---
 
-## 🗂️ **PROJECT STRUCTURE** (cyberpunk layout)
+## 🗂️ **PROJECT STRUCTURE**
 
 ```
 
