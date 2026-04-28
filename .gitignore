@@ -1,0 +1,64 @@
+# =========================
+# C++ Build Files
+# =========================
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# =========================
+# Debug / Release Folders
+# =========================
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# =========================
+# Visual Studio Files
+# =========================
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.idb
+*.ilk
+*.log
+*.tlog
+*.opendb
+*.db
+*.ipch
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Temporary / Backup Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# OS Files
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# Project Data Files (optional)
+# =========================
+data/*.data
