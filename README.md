@@ -193,14 +193,12 @@ Students According to cGPA
 
 ---
 
-👨‍💻 AUTHOR & CREDITS
+## 👨‍💻 AUTHOR & CREDITS
 
-Created by: Falah Fathel
-GitHub alias: FALCONZeroX
-Year: 2026
-License: MIT (free to use, modify, distribute)
-
-"Data is the new oil – manage it with style." – FALCON
+- **Created by:** Falah Fathel  
+- **GitHub alias:** `FALCONZeroX`  
+- **Year:** 2026  
+- **License:** MIT *(free to use, modify, distribute)*
 
 ---
 
