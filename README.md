@@ -3,23 +3,15 @@
 [![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-brightgreen?style=for-the-badge&logo=windows)](https://github.com/FALCONZeroX)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
-
 [![Storage](https://img.shields.io/badge/Storage-Binary%20File-orange?style=for-the-badge&logo=files)](#)
 [![Export](https://img.shields.io/badge/Export-Text%20File-yellow?style=for-the-badge&logo=readme)](#)
 [![Backup](https://img.shields.io/badge/Backup-Supported-success?style=for-the-badge&logo=databricks)](#)
 [![Restore](https://img.shields.io/badge/Restore-Supported-success?style=for-the-badge&logo=databricks)](#)
-
-[![CRUD](https://img.shields.io/badge/Features-CRUD-red?style=for-the-badge&logo=hackthebox)](#)
 [![Pagination](https://img.shields.io/badge/System-Pagination-blueviolet?style=for-the-badge&logo=codeforces)](#)
 [![Validation](https://img.shields.io/badge/Input-Validation-important?style=for-the-badge&logo=checkmarx)](#)
-[![Error Handling](https://img.shields.io/badge/Error%20Handling-Robust-green?style=for-the-badge&logo=bugcrowd)](#)
-
 [![Console UI](https://img.shields.io/badge/UI-Console%20Application-lightgrey?style=for-the-badge&logo=windows-terminal)](#)
 [![Color Output](https://img.shields.io/badge/Output-Colored%20Console-blue?style=for-the-badge&logo=gnu-bash)](#)
-
 [![Status](https://img.shields.io/badge/Delete-Logical%20Delete-critical?style=for-the-badge&logo=skyliner)](#)
-[![Database](https://img.shields.io/badge/Database-Vector%20Based-informational?style=for-the-badge&logo=cplusplus)](#)
-
 [![Made with](https://img.shields.io/badge/Made%20with-%E2%96%B6%20Blood%2C%20Sweat%20%26%20Code-red?style=for-the-badge)](https://github.com/FALCONZeroX)
 [![Author](https://img.shields.io/badge/Author-FALCONZeroX-black?style=for-the-badge&logo=github)](https://github.com/FALCONZeroX)
 [![Year](https://img.shields.io/badge/Year-2026-blue?style=for-the-badge)](#)
