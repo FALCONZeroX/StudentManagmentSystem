@@ -103,17 +103,6 @@ struct stStudents {
 · Dynamic column widths (106 chars total)
 · Colored rows for active/inactive status
 
----
-
-🖥️ INSTALLATION & COMPILATION
-
-🧰 Requirements
-
-· C++17 compliant compiler (GCC 9+, Clang 10+, MSVC 2019+)
-· Git (optional, for cloning)
-
-📥 Clone & Build
-
 ```bash
 # Clone the repository
 git clone https://github.com/FALCONZeroX/Student-Management-System.git
