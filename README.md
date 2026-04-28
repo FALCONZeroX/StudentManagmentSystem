@@ -11,7 +11,6 @@
 [![Validation](https://img.shields.io/badge/Input-Validation-important?style=for-the-badge&logo=checkmarx)](#)
 [![Console UI](https://img.shields.io/badge/UI-Console%20Application-lightgrey?style=for-the-badge&logo=windows-terminal)](#)
 [![Color Output](https://img.shields.io/badge/Output-Colored%20Console-blue?style=for-the-badge&logo=gnu-bash)](#)
-[![Status](https://img.shields.io/badge/Delete-Logical%20Delete-critical?style=for-the-badge&logo=skyliner)](#)
 [![Made with](https://img.shields.io/badge/Made%20with-%E2%96%B6%20Blood%2C%20Sweat%20%26%20Code-red?style=for-the-badge)](https://github.com/FALCONZeroX)
 [![Author](https://img.shields.io/badge/Author-FALCONZeroX-black?style=for-the-badge&logo=github)](https://github.com/FALCONZeroX)
 [![Year](https://img.shields.io/badge/Year-2026-blue?style=for-the-badge)](#)
