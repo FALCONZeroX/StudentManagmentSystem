@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Storage](https://img.shields.io/badge/Storage-Binary%20File-orange?style=for-the-badge&logo=files)](#)
 [![Restore](https://img.shields.io/badge/Restore-Supported-success?style=for-the-badge&logo=databricks)](#)
-[![Pagination](https://img.shields.io/badge/System-Pagination-blueviolet?style=for-the-badge&logo=codeforces)](#)
 [![Validation](https://img.shields.io/badge/Input-Validation-important?style=for-the-badge&logo=checkmarx)](#)
 [![Console UI](https://img.shields.io/badge/UI-Console%20Application-lightgrey?style=for-the-badge&logo=windows-terminal)](#)
 [![Color Output](https://img.shields.io/badge/Output-Colored%20Console-blue?style=for-the-badge&logo=gnu-bash)](#)
