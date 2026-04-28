@@ -176,15 +176,20 @@ Students According to cGPA
 
 ---
 
-💾 DATA PERSISTENCE MODEL
+## 💾 DATA PERSISTENCE MODEL
 
-File Format Purpose
-Students.data Binary Primary storage, read/written on every CRUD op
-Student.txt Text Human‑readable export/import (delimiter '-')
+| File Name      | Format | Purpose |
+|---------------|--------|---------|
+| `Students.data` | Binary | Primary storage, read/written on every CRUD operation |
+| `Student.txt`   | Text   | Human-readable export/import *(delimiter: `-`)* |
 
-📌 Backup : copies current vector to binary file.
+---
 
-📌 Restore : reloads from binary file even after total data loss.
+### 📌 Backup
+- Copies the current vector to the binary file.
+
+### 📌 Restore
+- Reloads from the binary file even after total data loss.
 
 ---
 
