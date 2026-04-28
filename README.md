@@ -213,14 +213,14 @@ Students According to cGPA
 
 ---
 
-🚀 FUTURE PLANS (Glitch‑in‑the‑Matrix edition)
+## 🚀 FUTURE PLANS *(Glitch-in-the-Matrix edition)*
 
-· Add GUI (Qt or FTXUI)
-· Multi‑user login with roles (admin/teacher)
-· Course registration linked to students
-· Export to CSV/Excel
-· Cloud backup (Firebase / REST API)
-· Dark/Neon theme toggle
+- Add GUI *(Qt or FTXUI)*
+- Multi-user login with roles *(admin/teacher)*
+- Course registration linked to students
+- Export to CSV/Excel
+- Cloud backup *(Firebase / REST API)*
+- Dark/Neon theme toggle
 
 ---
 
