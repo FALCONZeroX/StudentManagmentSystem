@@ -101,20 +101,6 @@ struct stStudents {
   - `E` (exit)
 - **Dynamic column widths** *(106 chars total)*
 - **Colored rows** for active/inactive status
-  
-```bash
-# Clone the repository
-git clone https://github.com/FALCONZeroX/Student-Management-System.git
-cd Student-Management-System
-
-# Compile using g++
-g++ -std=c++17 -I include/ -o StudentMS src/*.cpp
-
-# Run the executable
-./StudentMS   # (Linux/macOS)
-StudentMS.exe # (Windows)
-```
-
 ---
 
 🎮 USAGE EXAMPLE
