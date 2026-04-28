@@ -202,30 +202,6 @@ Students According to cGPA
 
 ---
 
-🛡️ .gitignore (recommended for your repo)
-
-```
-# Compiled files
-*.exe
-*.out
-*.o
-*.obj
-
-# Binary data (optional – keep if you want to share demo)
-# data/Students.data
-
-# VS Code / IDE
-.vscode/
-.idea/
-*.user
-
-# OS garbage
-.DS_Store
-Thumbs.db
-```
-
----
-
 🧪 TESTING & EDGE CASES
 
 · ✅ Empty database → graceful messages, no crashes
