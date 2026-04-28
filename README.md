@@ -202,14 +202,14 @@ Students According to cGPA
 
 ---
 
-🧪 TESTING & EDGE CASES
+## 🧪 TESTING & EDGE CASES
 
-· ✅ Empty database → graceful messages, no crashes
-· ✅ Duplicated roll numbers → prevented by Verify_Roll_Number
-· ✅ Invalid menu input → loops until correct
-· ✅ File missing → Import_From_Binary_File returns empty vector
-· ✅ Corrupted binary → no UB, simply no records loaded
-· ✅ Logical delete → Is_Active = false, still appears in show/search but flagged “InActive”
+- ✅ **Empty database** → graceful messages, no crashes  
+- ✅ **Duplicated roll numbers** → prevented by `Verify_Roll_Number`  
+- ✅ **Invalid menu input** → loops until correct  
+- ✅ **File missing** → `Import_From_Binary_File` returns empty vector  
+- ✅ **Corrupted binary** → no UB, simply no records loaded  
+- ✅ **Logical delete** → `Is_Active = false`, still appears in show/search but flagged **"InActive"**
 
 ---
 
@@ -221,19 +221,6 @@ Students According to cGPA
 · Export to CSV/Excel
 · Cloud backup (Firebase / REST API)
 · Dark/Neon theme toggle
-
----
-
-🤝 CONTRIBUTING
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Style guide: follow RAII, avoid new/delete, prefer range‑based loops.
-
-```bash
-git checkout -b feature/your-idea
-git commit -m "✨ add neon pulse animation"
-git push origin feature/your-idea
-```
 
 ---
 
@@ -250,16 +237,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction...
 ```
-
----
-
-https://img.shields.io/badge/BUILT%20WITH-C%2B%2B-cyan?style=for-the-badge
-https://img.shields.io/badge/STYLE-CYBERPUNK-ff69b4?style=for-the-badge
-
-```
-<<< SYSTEM READY // INSERT COIN // PRESS ANY KEY >>>
-```
-
-Need help? Open an issue or ping @FALCONZeroX – expect a reply within 24h (matrix time) 🌌
 
 ```
