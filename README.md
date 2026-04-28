@@ -78,31 +78,30 @@ struct stStudents {
 };
 ```
 
-🔹 VALIDATION & ERROR HANDLING
+## 🔹 VALIDATION & ERROR HANDLING
 
-· Name: only letters, no digits, spaces allowed
+- **Name:** only letters, no digits, spaces allowed  
+- **Department:** strict 5-option enum  
+- **Semester:** 1-8 range  
+- **cGPA:** 0.0 – 4.0 with 2-digit precision  
+- **Phone:** exactly 9 numeric characters  
+- **Email:** must contain `@` symbol  
+- **Roll number:** auto-incremented, duplicate check  
+- **Buffer cleanup:** `cin.fail()` + `cin.ignore()` for robust input  
 
-· Department: strict 5‑option enum
+---
 
-· Semester: 1‑8 range
+## 🔹 PAGINATION SYSTEM
 
-· cGPA: 0.0 – 4.0 with 2‑digit precision
-
-· Phone: exactly 9 numeric characters
-
-· Email: must contain @ symbol
-
-· Roll number: auto‑incremented, duplicate check
-
-· Buffer cleanup: cin.fail() + cin.ignore() for robust input
-
-🔹 PAGINATION SYSTEM
-
-· 10 records per page
-· Commands: N (next), P (prev), M (main menu), E (exit)
-· Dynamic column widths (106 chars total)
-· Colored rows for active/inactive status
-
+- **10 records per page**
+- **Commands:**
+  - `N` (next)
+  - `P` (prev)
+  - `M` (main menu)
+  - `E` (exit)
+- **Dynamic column widths** *(106 chars total)*
+- **Colored rows** for active/inactive status
+  
 ```bash
 # Clone the repository
 git clone https://github.com/FALCONZeroX/Student-Management-System.git
